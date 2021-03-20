@@ -1,0 +1,15 @@
+.list {
+	display: flex;
+	align-items: center;
+	&__item {
+		margin-right: 50px;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+	&__link {
+		font-weight: 700;
+		text-transform: uppercase;
+		color: #fff;
+	}
+}

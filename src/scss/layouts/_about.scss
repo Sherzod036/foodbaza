@@ -1,0 +1,22 @@
+.about {
+	position: relative;
+	padding-top: 230px;
+	padding-bottom: 100px;
+	&__descs {
+		margin-bottom: 30px;
+	}
+	&__desc {
+		line-height: 2.6rem;
+	}
+}
+
+.founded {
+	position: absolute;
+	right: 10%;
+	top: 50%;
+	writing-mode: vertical-rl;
+	font-weight: 700;
+	font-size: 1.4rem;
+	letter-spacing: 0.165em;
+	text-transform: uppercase;
+}

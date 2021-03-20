@@ -1,0 +1,75 @@
+.hero {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: $primary;
+	padding-top: 10em;
+	&__abstract {
+		position: absolute;
+		top: 25%;
+		right: 10%;
+	}
+	&__contact {
+		display: flex;
+		position: absolute;
+		bottom: 5%;
+		left: 10%;
+		height: 500px;
+		writing-mode: vertical-rl;
+		&-phone {
+			display: block;
+			font-weight: 700;
+			font-size: 1.4rem;
+			letter-spacing: 0.165em;
+			color: #fff;
+			margin-bottom: 38px;
+			transform: rotate(-180deg);
+		}
+		&-mail {
+			display: block;
+			font-weight: 700;
+			font-size: 1.4rem;
+			letter-spacing: 0.165em;
+			text-transform: uppercase;
+			color: #fff;
+			transform: rotate(-180deg);
+		}
+	}
+	&__subscribe {
+		margin-bottom: 38px;
+		&-item {
+			display: inline-block;
+			margin-bottom: 17px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			&::before {
+				color: #fff;
+				font-size: 2.3rem;
+			}
+		}
+	}
+	&__title {
+		font-family: 'ArtegraSoft';
+		font-weight: 700;
+		display: block;
+		max-width: 886px;
+		font-size: 5.2rem;
+		line-height: 7.8rem;
+		text-transform: uppercase;
+		color: #fff;
+		margin-bottom: 10px;
+	}
+	&__desc {
+		font-size: 1.7rem;
+		line-height: 3rem;
+		display: block;
+		max-width: 581px;
+		color: #fff;
+		margin-bottom: 40px;
+	}
+	&__main-pic {
+		position: relative;
+		z-index: 2;
+	}
+}

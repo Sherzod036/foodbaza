@@ -1,0 +1,12 @@
+.footer {
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 40px;
+
+	&__logo {
+		display: block;
+		width: 231px;
+	}
+}

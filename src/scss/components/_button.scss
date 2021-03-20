@@ -1,0 +1,15 @@
+.button {
+	display: inline-block;
+	font-family: 'ArtegraSoft';
+	font-weight: 500;
+	font-size: 1.4rem;
+	letter-spacing: 0.125em;
+	text-transform: uppercase;
+	color: #fff;
+	background: $primary;
+	padding: 16px 38px;
+	transition: 0.3s;
+	&:hover {
+		background: #3f92d0;
+	}
+}

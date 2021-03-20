@@ -1,0 +1,38 @@
+.product {
+	width: 100%;
+	height: 480px;
+	display: block;
+	background: #f8f8f8;
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+	&:hover &__arrow {
+		margin-right: 0;
+	}
+	&__poster {
+		width: 100%;
+		height: 360px;
+		object-fit: cover;
+		& img {
+			height: 100%;
+		}
+	}
+	&__inner {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 30px;
+	}
+	&__title {
+		font-family: 'ArtegraSoft';
+		font-weight: 700;
+		display: block;
+		width: 120px;
+		font-size: 2.5rem;
+		line-height: 3rem;
+		transition: 0.3s;
+	}
+	&__arrow {
+		font-size: 28px;
+		margin-right: 20px;
+		transition: 0.5s;
+	}
+}

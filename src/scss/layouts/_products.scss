@@ -1,0 +1,32 @@
+.products {
+	padding: 100px 0;
+	background: #dfe3e6;
+	&__title {
+		margin-bottom: 0;
+	}
+	&__titles {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 25px;
+	}
+	&__all {
+		display: flex;
+		align-items: center;
+		font-size: 2rem;
+		transition: 0.5s;
+		&:hover &-icon {
+			margin-right: 0;
+			color: $primary;
+		}
+		&:hover {
+			color: $primary;
+		}
+		&-icon {
+			font-size: 1.8rem;
+			margin-left: 10px;
+			margin-right: 20px;
+			transition: 0.5s;
+		}
+	}
+}
