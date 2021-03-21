@@ -1,0 +1,68 @@
+.page-about {
+	padding: 70px 0;
+	&__content {
+		margin-bottom: 70px;
+	}
+	&__info {
+		margin-bottom: 40px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		&-desc {
+			line-height: 2.6rem;
+		}
+	}
+	&__main-pic {
+		width: 100%;
+		height: 700px;
+		& img {
+			display: block;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+	&__benefits {
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding: 100px 0;
+		margin-bottom: 70px;
+	}
+	&__benefit {
+		text-align: center;
+		&-icon {
+			display: block;
+			font-size: 35px;
+			color: #fff;
+			margin-bottom: 10px;
+		}
+		&-title {
+			display: block;
+			font-weight: 700;
+			font-size: 2rem;
+			color: #fff;
+			margin-bottom: 10px;
+		}
+		&-horizontal {
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 10px;
+			width: 156px;
+			height: 2px;
+			background: #fff;
+		}
+		&-desc {
+			display: block;
+			width: 200px;
+			font-size: 1.4rem;
+			line-height: 1.7rem;
+			color: #fff;
+			margin: 0 auto;
+		}
+	}
+	&__spheres {
+		&-desc {
+			line-height: 2.6rem;
+		}
+	}
+}

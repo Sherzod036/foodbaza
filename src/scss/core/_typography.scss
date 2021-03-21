@@ -18,9 +18,9 @@
 
 @font-face {
 	font-family: 'ArtegraSoft';
-	src: url('../fonts/ArtegraSoft/ArtegraSoft-Bold.woff2') format('woff2'),
-		url('../fonts/ArtegraSoft/ArtegraSoft-Bold.woff') format('woff');
-	font-weight: 700;
+	src: url('../fonts/ArtegraSoft/ArtegraSoft-Regular.woff2') format('woff2'),
+		url('../fonts/ArtegraSoft/ArtegraSoft-Regular.woff') format('woff');
+	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 }
@@ -30,6 +30,15 @@
 	src: url('../fonts/ArtegraSoft/ArtegraSoft-Medium.woff2') format('woff2'),
 		url('../fonts/ArtegraSoft/ArtegraSoft-Medium.woff') format('woff');
 	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'ArtegraSoft';
+	src: url('../fonts/ArtegraSoft/ArtegraSoft-Bold.woff2') format('woff2'),
+		url('../fonts/ArtegraSoft/ArtegraSoft-Bold.woff') format('woff');
+	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
 }

@@ -1,0 +1,23 @@
+.billboard {
+	position: relative;
+	background: $primary;
+	margin-top: 90px;
+	padding: 45px 0;
+	&__abstract {
+		position: absolute;
+		right: 0;
+		top: 0;
+		height: 100%;
+		& img {
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+	&__title {
+		font-family: 'ArtegraSoft';
+		font-weight: 700;
+		font-size: 5.2rem;
+		text-transform: uppercase;
+		color: #fff;
+	}
+}

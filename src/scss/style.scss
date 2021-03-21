@@ -9,10 +9,16 @@
 @import 'components/product';
 
 @import 'layouts/header';
+@import 'layouts/header-pages';
+@import 'layouts/billboard';
 @import 'layouts/hero';
 @import 'layouts/about';
+@import 'layouts/slider';
 @import 'layouts/dealers';
 @import 'layouts/products';
 @import 'layouts/footer';
+
+@import 'pages/page-about';
+@import 'pages/page-products';
 
 @import 'core/responsive';

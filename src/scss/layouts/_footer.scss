@@ -1,12 +1,103 @@
 .footer {
+	position: relative;
 	width: 100%;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	padding: 40px;
-
+	&__abstract {
+		position: absolute;
+		right: 5%;
+		bottom: -5px;
+		width: 385px;
+	}
 	&__logo {
 		display: block;
 		width: 231px;
+		margin-bottom: 20px;
 	}
+	&__desc {
+		font-size: 1.7rem;
+		line-height: 3rem;
+		color: #fff;
+	}
+	&__title {
+		font-family: 'ArtegraSoft';
+		display: block;
+		font-weight: 700;
+		font-size: 1.8rem;
+		color: #fff;
+		margin: 20px 0;
+	}
+	&__link {
+		display: block;
+		font-family: 'ArtegraSoft';
+		font-weight: 400;
+		font-size: 1.4rem;
+		color: #fff;
+		margin-bottom: 12px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	&__contact {
+		display: flex;
+		margin-bottom: 15px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		&-text {
+			width: 70px;
+			flex: 0 0 70px;
+			margin-right: 18px;
+			display: block;
+			font-family: 'ArtegraSoft';
+			font-weight: 400;
+			font-size: 1.4rem;
+			color: #fff;
+		}
+		&-link {
+			display: block;
+			font-family: 'ArtegraSoft';
+			font-weight: 700;
+			font-size: 1.4rem;
+			line-height: 1.7rem;
+			color: #fff;
+			&--weight {
+				font-weight: 500;
+			}
+		}
+	}
+	&__subscribe {
+		&-item {
+			font-size: 2.3rem;
+			color: #fff;
+			margin-right: 15px;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+.copy {
+	position: relative;
+	background: $primary;
+	padding: 15px 0;
+	&__teaser {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__text {
+		font-family: 'ArtegraSoft';
+		font-weight: 500;
+		font-size: 14px;
+		color: #fff;
+	}
+}
+
+.space {
+	display: block;
+	width: 223px;
 }

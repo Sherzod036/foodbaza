@@ -21,7 +21,8 @@ body {
 	font-weight: 400;
 	color: $dark;
 	font-size: 1.6rem;
-	height: 10000px;
+	overflow-x: hidden;
+	// height: 5000px;
 }
 
 body::-webkit-scrollbar {

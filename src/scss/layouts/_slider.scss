@@ -1,0 +1,21 @@
+.slider {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	&--cursor {
+		cursor: url('../img/cursor.png'), pointer;
+	}
+	&__items {
+		width: 918px;
+	}
+	&__item {
+		height: 675px;
+		& img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+}
