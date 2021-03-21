@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>FOODBAZA</title>
+		<link rel="icon" href="img/favicon.png" type="image/png" />
+		<link rel="stylesheet" href="css/bundle.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		@@include('chunks/_header-pages.html') @@include('chunks/_billboard.html')
+
+		<div class="single-products">
+			<div class="container">
+				<a class="back" href="#">
+					<span class="back__icon">
+						<img src="img/back.svg" alt="" />
+					</span>
+					Назад
+				</a>
+				<!-- /Back -->
+				<span class="single-products__title">Сода пищевая</span>
+				<div class="single-products__inner row">
+					<div class="col-lg-5">
+						<div class="single-products__main-pic">
+							<img src="img/product.jpg" alt="" />
+						</div>
+						<div class="single-products__sub-pics">
+							<div class="single-products__sub-pic">
+								<img src="img/product.jpg" alt="" />
+							</div>
+							<div class="single-products__sub-pic">
+								<img src="img/product_v2.jpg" alt="" />
+							</div>
+							<div class="single-products__sub-pic">
+								<img src="img/product.jpg" alt="" />
+							</div>
+							<div class="single-products__sub-pic">
+								<img src="img/product.jpg" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-7">
+						<div class="char">
+							<span class="char__title">Характеристики</span>
+							<div class="char__item">
+								<div class="char__key">
+									<span>Производитель</span>
+								</div>
+								<div class="char__val">Россия</div>
+							</div>
+							<!-- /Item -->
+							<div class="char__item">
+								<div class="char__key">
+									<span>Тип</span>
+								</div>
+								<div class="char__val">
+									Бикарбонат натрия, натрий двууглекислый
+								</div>
+							</div>
+							<!-- /Item -->
+							<div class="char__item">
+								<div class="char__key">
+									<span>Соответствие</span>
+								</div>
+								<div class="char__val">ГОСТ 32802-2014</div>
+							</div>
+							<!-- /Item -->
+							<div class="char__item">
+								<div class="char__key">
+									<span>Сорт</span>
+								</div>
+								<div class="char__val">Первый</div>
+							</div>
+							<!-- /Item -->
+							<div class="char__item">
+								<div class="char__key">
+									<span>Бренд</span>
+								</div>
+								<div class="char__val">Foodbaza</div>
+							</div>
+							<!-- /Item -->
+							<div class="char__item">
+								<div class="char__key">
+									<span>Упаковка</span>
+								</div>
+								<div class="char__val">Картонная</div>
+							</div>
+							<!-- /Item -->
+							<div class="char__item">
+								<div class="char__key">
+									<span>Без глютена</span>
+								</div>
+								<div class="char__val">Да</div>
+							</div>
+							<!-- /Item -->
+							<div class="char__item">
+								<div class="char__key">
+									<span>Вес</span>
+								</div>
+								<div class="char__val">4 500 г</div>
+							</div>
+							<!-- /Item -->
+							<div class="char__item">
+								<div class="char__key">
+									<span>Количество в упаковке</span>
+								</div>
+								<div class="char__val">10 шт.</div>
+							</div>
+							<!-- /Item -->
+							<div class="char__item">
+								<div class="char__key">
+									<span>Срок годности </span>
+								</div>
+								<div class="char__val">720 дней</div>
+							</div>
+							<!-- /Item -->
+							<div class="char__item">
+								<div class="char__key">
+									<span>Цена</span>
+								</div>
+								<div class="char__val">Договорная</div>
+							</div>
+							<!-- /Item -->
+						</div>
+					</div>
+				</div>
+				<div class="single-products__desc">
+					<span class="single-products__desc-title">Описание</span>
+					<span class="single-products__desc-text">
+						В пищевой промышленности – хлебопечении, производстве кондитерских
+						изделий, приготовлении напитков. Lorem ipsum dolor sit amet,
+						consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+						esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+						cupidatat non proident, sunt in culpa qui officia deserunt mollit
+						anim id est laborum. Sed ut perspiciatis unde omnis iste natus error
+						sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+						eaque ipsa quae ab illo inventore veritatis et quasi architecto
+						beatae vitae dicta sunt explicabo.
+					</span>
+				</div>
+
+				<div class="other-products">
+					<span class="other-products__title">Другие продукты</span>
+					<div class="row">
+						<div class="col-lg-4">@@include('chunks/_product.html')</div>
+						<div class="col-lg-4">@@include('chunks/_product.html')</div>
+						<div class="col-lg-4">@@include('chunks/_product.html')</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		@@include('chunks/_footer.html')
+
+		<script src="js/bundle.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

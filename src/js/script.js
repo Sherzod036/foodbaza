@@ -8,6 +8,17 @@ $(function () {
 		}
 	});
 
+	const pic = $('.single-products__main-pic img');
+	$('.single-products__sub-pic img').on('click', function () {
+		let current = $(this).attr('src');
+		pic
+			.fadeOut(400, () => {
+				pic.attr('src', current);
+				pic.attr('srcset', '');
+			})
+			.fadeIn();
+	});
+
 	$('.slider__items').owlCarousel({
 		loop: true,
 		items: 1,
