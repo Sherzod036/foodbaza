@@ -1,0 +1,25 @@
+.langs {
+	position: fixed;
+	top: 15%;
+	right: 0;
+	z-index: 99;
+	background: #fff;
+	border-radius: 20px 0px 0px 20px;
+	filter: drop-shadow(-4px 4px 4px rgba(0, 0, 0, 0.25));
+	padding: 15px 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.lang {
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #c4c4c4;
+	margin-bottom: 7px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	&--active {
+		color: $primary;
+	}
+}
