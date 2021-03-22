@@ -1,0 +1,60 @@
+@media (max-width: 500px) {
+	.header__logo {
+		width: 200px;
+		flex: 0 0 200px;
+	}
+	.hero__title {
+		font-size: 2.8rem;
+		line-height: 3.8rem;
+	}
+	.langs {
+		padding: 15px 8px;
+	}
+	.about {
+		text-align: center;
+	}
+	.about__desc {
+		text-align: left;
+	}
+	.dealers {
+		text-align: center;
+	}
+	.dealers__desc {
+		text-align: left;
+	}
+	.benefit {
+		flex-direction: column;
+	}
+	.benefit__icon {
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+	.benefit__text {
+		font-size: 2rem;
+	}
+	.products__titles {
+		align-items: center;
+	}
+	.footer__logo {
+		width: 200px;
+	}
+	.space {
+		width: 200px;
+	}
+	.footer__desc {
+		font-size: 1.6rem;
+		line-height: 2.5rem;
+	}
+	.billboard__title {
+		font-size: 3.2rem;
+	}
+	.page-news__item {
+		margin-bottom: 35px;
+	}
+	.single-products__title {
+		font-size: 3rem;
+	}
+	.single-products__main-pic {
+		height: 300px;
+	}
+}

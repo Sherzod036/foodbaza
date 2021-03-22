@@ -1,4 +1,8 @@
 $(function () {
+	const BODY = $('body');
+	BODY.removeClass('body--fixed');
+	$('.preloader').addClass('preloader--disabled');
+
 	$(window).on('scroll', function () {
 		const height = $(window).scrollTop();
 		if (height > 50) {
@@ -6,6 +10,13 @@ $(function () {
 		} else {
 			$('.header--main').removeClass('header--scrolled');
 		}
+	});
+
+	const hamb = $('.hamburger');
+
+	hamb.on('click', () => {
+		hamb.toggleClass('is-active');
+		$('.header__nav').slideToggle().css({ display: 'block' });
 	});
 
 	const pic = $('.single-products__main-pic img');
@@ -25,6 +36,22 @@ $(function () {
 		autoplay: true,
 		smartSpeed: 1000,
 		autoplayTimeout: 5000,
+		margin: 20,
+	});
+
+	const pageMediaArrows = [
+		'<span class="icon-media-arrow-left"></span>',
+		'<span class="icon-media-arrow-right"></span>',
+	];
+
+	$('.page-media__slider').owlCarousel({
+		items: 1,
+		margin: 50,
+		smartSpeed: 1000,
+		mouseDrag: false,
+		touchDrag: false,
+		nav: true,
+		navText: pageMediaArrows,
 	});
 
 	const slider = $('.slider');

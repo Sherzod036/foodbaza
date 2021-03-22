@@ -1,0 +1,33 @@
+@media (max-width: 1600px) {
+	.hero__contact {
+		left: 2%;
+	}
+	.hero__abstract {
+		right: 2%;
+	}
+	.founded {
+		right: 2%;
+	}
+}
+
+@media (max-width: 1400px) {
+	.hero {
+		height: auto;
+		padding-bottom: 40px;
+	}
+	.about {
+		padding-top: 100px;
+	}
+}
+
+@media (max-width: 1300px) {
+	.hero__contact {
+		display: none;
+	}
+	.hero__abstract {
+		display: none;
+	}
+	.founded {
+		display: none;
+	}
+}

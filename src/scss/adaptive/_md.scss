@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+	.hero {
+		padding-bottom: 35px;
+	}
+	.hero__desc {
+		font-size: 1.6rem;
+		line-height: 2.5rem;
+		margin-bottom: 35px;
+	}
+	.products__titles {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.products__all {
+		margin-top: 15px;
+	}
+	.copy__teaser {
+		flex-direction: column;
+	}
+	.copy__text {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.billboard__title {
+		font-size: 4.2rem;
+	}
+}

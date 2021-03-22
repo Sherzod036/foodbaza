@@ -3,6 +3,8 @@
 @import 'core/base';
 @import 'core/libs';
 
+@import 'components/preloader';
+@import 'components/hamburger';
 @import 'components/nav';
 @import 'components/title';
 @import 'components/button';
@@ -22,7 +24,13 @@
 @import 'pages/page-about';
 @import 'pages/page-products';
 @import 'pages/page-news';
+@import 'pages/page-media';
 @import 'pages/single-products';
 @import 'pages/single-news';
 
-@import 'core/responsive';
+@import 'adaptive/xxl';
+@import 'adaptive/xl';
+@import 'adaptive/lg';
+@import 'adaptive/md';
+@import 'adaptive/sm';
+@import 'adaptive/xs';

@@ -1,0 +1,38 @@
+.hamburger {
+	display: none;
+	cursor: pointer;
+}
+
+.hamburger-inner,
+.hamburger-inner::after,
+.hamburger-inner::before {
+	background-color: #fff;
+}
+
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::after,
+.hamburger.is-active .hamburger-inner::before {
+	background-color: #fff;
+}
+
+.hamburger.is-active:hover,
+.hamburger:hover {
+	opacity: 1;
+}
+
+.header--pages .hamburger-inner,
+.header--pages .hamburger-inner::after,
+.header--pages .hamburger-inner::before {
+	background-color: $primary;
+}
+
+.header--pages .hamburger.is-active .hamburger-inner,
+.header--pages .hamburger.is-active .hamburger-inner::after,
+.header--pages .hamburger.is-active .hamburger-inner::before {
+	background-color: $primary;
+}
+
+.header--pages .hamburger.is-active:hover,
+.header--pages .hamburger:hover {
+	opacity: 1;
+}

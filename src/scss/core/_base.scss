@@ -23,7 +23,6 @@ body {
 	color: $dark;
 	font-size: 1.6rem;
 	overflow-x: hidden;
-	// height: 5000px;
 }
 
 body::-webkit-scrollbar {
@@ -32,6 +31,12 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb {
 	background-color: $primary;
+}
+
+.body {
+	&--fixed {
+		overflow-y: hidden;
+	}
 }
 
 li {
