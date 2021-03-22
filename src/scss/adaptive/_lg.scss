@@ -47,8 +47,9 @@
 	.page-about,
 	.page-media,
 	.page-news,
-	.single-news,
 	.page-products,
+	.page-contacts,
+	.single-news,
 	.single-products {
 		padding: 40px 0;
 	}
@@ -137,5 +138,11 @@
 	.single-products__inner,
 	.single-products__desc {
 		margin-bottom: 40px;
+	}
+	.page-contacts__subscribe {
+		margin: 35px 0;
+	}
+	.map {
+		height: 400px;
 	}
 }

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>FOODBAZA</title>
+		<link rel="icon" href="img/favicon.png" type="image/png" />
+		<link rel="stylesheet" href="css/bundle.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		@@include('chunks/_header-pages.html') @@include('chunks/_billboard.html')
+
+		<div class="page-contacts">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="page-contacts__content">
+							<div class="contact">
+								<span class="contact__icon">
+									<img src="img/icons/home.svg" alt="" />
+								</span>
+								<div class="contact__inner">
+									<span class="contact__title">Адрес:</span>
+									<a class="contact__link" href="#" target="_blank">
+										Тошкент вилояти, пойтахтга кириш Ark Buloq божхона пости
+									</a>
+								</div>
+							</div>
+							<!-- /Contact -->
+							<div class="contact">
+								<span class="contact__icon">
+									<img src="img/icons/phone.svg" alt="" />
+								</span>
+								<div class="contact__inner">
+									<span class="contact__title">Телефон:</span>
+									<a class="contact__link" href="#">(90) 970 56 65</a>
+									<a class="contact__link" href="#">(90) 970 56 65</a>
+								</div>
+							</div>
+							<!-- /Contact -->
+							<div class="contact">
+								<span class="contact__icon">
+									<img src="img/icons/mail.svg" alt="" />
+								</span>
+								<div class="contact__inner">
+									<span class="contact__title">E-mail:</span>
+									<a class="contact__link" href="#">Info@foodbaza.uz</a>
+									<a class="contact__link" href="#">Info@foodbaza.uz</a>
+								</div>
+							</div>
+							<!-- /Contact -->
+              <div class="page-contacts__subscribe">
+                <span class="page-contacts__subscribe-title">Мы в социальных сетях:</span>
+                <a class="page-contacts__subscribe-link icon-telegram" href="#" target="_blank"></a>
+                <a class="page-contacts__subscribe-link icon-instagram" href="#" target="_blank"></a>
+                <a class="page-contacts__subscribe-link icon-facebook" href="#" target="_blank"></a>
+              </div>
+						</div>
+					</div>
+					<div class="col-lg-8">
+						<div class="map">
+              <iframe
+									src="https://yandex.uz/map-widget/v1/-/CCUUaQFDwC"
+									width="100%"
+									height="100%"
+									allowfullscreen="true"
+								>
+              </iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		@@include('chunks/_footer.html')
+
+		<script src="js/bundle.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
